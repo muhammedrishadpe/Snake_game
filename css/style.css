@@ -1,0 +1,52 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: crimson;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: dotted 2px rgb(218, 218, 218);
+    position: relative;
+    left: 43%;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0)
+}
+
+.snake {
+    background-color: rgb(19, 83, 19);
+    border-radius: 3px;
+}
+
+.apple {
+    background-color: rgb(108, 40, 40);
+    border-radius: 50%;
+}
+
+#start {
+    background-color: rgb(103, 103, 103);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+#start:hover,:focus {
+    background-color: rgb(78, 78, 78);
+    padding: 6px 9px;
+    border-radius: 8px;
+    box-shadow: 11px 8px 2px 1px rgba(93, 11, 11, 0.2);
+}
+
+#score {
+    color: rgb(37, 34, 32);
+}
